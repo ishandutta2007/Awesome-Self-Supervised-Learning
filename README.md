@@ -1,11 +1,24 @@
-# Awesome-Self-Supervised-Learning
-## Self-Supervised Learning (SSL): Evolution, Variants, Types, & Applications
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Self-Supervised Learning Banner" width="100%" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</div>
+
+# 🚀 Awesome-Self-Supervised-Learning
+
+> A curated list of resources, algorithms, and applications related to Self-Supervised Learning (SSL), improving representation learning without large labeled datasets.
+
+## 🧠 Self-Supervised Learning (SSL): Evolution, Variants, Types, & Applications
 
 Self-Supervised Learning (SSL) is a machine learning paradigm that eliminates the need for expensive, human-annotated datasets by generating training signals directly from the raw data itself. The algorithm treats part of the data as a target to predict (e.g., masking a word or an image patch) and uses the remaining data as context. By designing specialized "pretext tasks," SSL allows models to learn rich, foundational semantic representations from billions of uncurated images, audio files, or text streams, which can then be fine-tuned on downstream tasks using minimal labels.
 
 ---
 
-## 1. The Chronological Evolution
+## ⏳ 1. The Chronological Evolution
 
 The algorithmic progression of SSL reflects a transition from rigid, hand-crafted geometric pretext tasks to dual-tower contrastive networks, moving toward non-contrastive feature prediction and unified masked autoencoders.
 
@@ -24,7 +37,7 @@ flowchart LR
 
 ---
 
-## 2. Core Algorithmic & Objective Variants
+## ⚙️ 2. Core Algorithmic & Objective Variants
 
 Self-supervised frameworks are strictly categorized based on how they calculate their loss functions and prevent mathematical representation collapse (where the model maps all inputs to a single static vector).
 
@@ -37,7 +50,7 @@ Self-supervised frameworks are strictly categorized based on how they calculate 
 
 ---
 
-## 3. Modality Implementation Types
+## 📊 3. Modality Implementation Types
 
 SSL operates cross-modally, serving as the foundational engine for modern multi-modal and specialized deep learning architectures.
 
@@ -49,7 +62,7 @@ SSL operates cross-modally, serving as the foundational engine for modern multi-
 
 ---
 
-## 4. Fundamental Challenges & Mitigations
+## 🛡️ 4. Fundamental Challenges & Mitigations
 
 | Challenge | Phenomenon & Mitigation | Year First Used | Paper Link |
 |---|---|---|---|
@@ -58,7 +71,7 @@ SSL operates cross-modally, serving as the foundational engine for modern multi-
 
 ---
 
-## 5. Frontier Real-World Applications
+## 🌍 5. Frontier Real-World Applications
 
 | Application | Description | Year First Used | Paper Link |
 |---|---|---|---|
