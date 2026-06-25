@@ -78,3 +78,14 @@ SSL operates cross-modally, serving as the foundational engine for modern multi-
 | **[Medical Image Diagnostics (Sparse Label Adaptation)](pages/medical_image.md)** | Hospitals possess millions of medical scans (X-rays, MRIs) but very few high-quality annotations. SSL pre-trains a vision encoder on the raw imagery to learn clinical anatomy markers, allowing a final downstream model to diagnose rare pathologies using fewer than 100 labeled patient cases. | 2020 | [Self-Supervised Learning for Medical Image Classification](https://arxiv.org/abs/2012.02927) |
 | **[Foundation Multi-Lingual Foundation Models](pages/multi_lingual.md)** | Web crawls provide trillions of lines of unannotated multilingual text. Masked and autoregressive SSL objectives allow models to construct shared linguistic embedding maps, translating or reasoning across resource-scarce languages without explicit bilingual dictionaries. | 2019 | [XLM](https://arxiv.org/abs/1901.07291) |
 | **[Industrial Robotics & Autonomous Exploration](pages/robotics.md)** | Robots running **World Models** (like JEPA) map physical mechanics and object movements via video inputs. By predicting the next semantic frame feature during mock tasks, the robot learns physical acceleration, depth constraints, and collision rules without manual code configuration. | 2018 | [World Models](https://arxiv.org/abs/1803.10122) |
+
+## 🌟 Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Self-Supervised-Learning&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Self-Supervised-Learning&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Self-Supervised-Learning&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Self-Supervised-Learning&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
