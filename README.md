@@ -9,9 +9,12 @@ Self-Supervised Learning (SSL) is a machine learning paradigm that eliminates th
 
 The algorithmic progression of SSL reflects a transition from rigid, hand-crafted geometric pretext tasks to dual-tower contrastive networks, moving toward non-contrastive feature prediction and unified masked autoencoders.
 
-
-[Heuristic Pretext Tasks (2014-2018)] ----> [Contrastive Learning (SimCLR, 2020)] ----> [Masked Autoencoders (MAE/JEPA, 2022+)](Jigsaw / Image Rotation)                 (Negative Samples / InfoNCE Loss)             (Direct Token Reconstruction / Features)
-
+```mermaid
+flowchart LR
+    A["Heuristic Pretext Tasks (2014-2018)<br/>(Jigsaw / Image Rotation)"]
+    --> B["Contrastive Learning (SimCLR, 2020)<br/>(Negative Samples / InfoNCE Loss)"]
+    --> C["Masked Autoencoders (MAE/JEPA, 2022+)<br/>(Direct Token Reconstruction / Features)"]
+```
 
 
 *   **The Early Heuristic Pretext Era (~2014–2018)**
